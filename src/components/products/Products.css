@@ -1,0 +1,28 @@
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    background-color: rgb(239, 231, 247);
+    border: 1px dotted darkmagenta;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+
+.form-control {
+    display: block;
+    width: 94%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

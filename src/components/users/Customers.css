@@ -1,0 +1,36 @@
+.customer {
+    background-color: darksalmon;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+.customer__footer {
+    display: flex;
+    margin: 1rem 0 0.25rem 0;
+    font-style: oblique;
+}
+
+.customer__header {
+    font-size: larger;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.update__btn {
+    margin-left: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: hotpink;
+  }
